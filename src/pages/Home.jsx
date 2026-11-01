@@ -12,7 +12,7 @@ export default function Home() {
 
         <div className="container hero-grid">
           <div className="hero-copy">
-            <h1>We build <span className="accent">intelligent</span><br />technology that<br /><span className="nowrap">moves businesses <span className="accent">forward.</span></span></h1>
+            <h1>We build <span className="accent">intelligent</span><br />technology that<br /><span className="nowrap">moves businesses <br className="mobile-break" /><span className="accent">forward.</span></span></h1>
             <p className="lead">From AI-powered applications to scalable software architectures and autonomous systems, we turn ambitious ideas into powerful digital solutions.</p>
 
             <div className="hero-actions">

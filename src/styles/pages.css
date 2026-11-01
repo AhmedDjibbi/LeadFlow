@@ -338,6 +338,7 @@
 /* ---------- why choose ---------- */
 .sol-why {
   position: relative;
+  overflow: hidden;
   display: grid;
   grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.92fr) 250px;
   gap: 38px;
@@ -530,7 +531,8 @@
     padding: 158px 0 44px;
   }
   .sol-hero-bg img {
-    object-position: 72% center;
+    object-position: 60% center;
+    opacity: 0.78;
   }
   .sol-hero h1 {
     font-size: clamp(32px, 9vw, 42px);
@@ -1297,8 +1299,8 @@
   }
   .contact-lead-break { display: none; }
   .contact-hero-art img {
-    object-position: 72% 0%;
-    opacity: 0.72;
+    object-position: 55% 0%;
+    opacity: 0.52;
   }
   .contact-panel {
     padding: 24px 22px 26px;
@@ -1337,6 +1339,10 @@
 @media (max-width: 720px) {
   .inner-hero {
     padding: 108px 0 38px;
+  }
+  .inner-hero-art img {
+    object-position: 78% center;
+    opacity: 0.72;
   }
   .inner-hero .lead {
     font-size: 13.5px;
