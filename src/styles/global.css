@@ -1250,6 +1250,12 @@ p { margin: 0; }
     width: 118vw;
     opacity: 0.82;
   }
+  .hero-art::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(5, 5, 11, 0.42);
+  }
   .hero-visual {
     position: absolute;
     z-index: 1;

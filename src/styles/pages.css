@@ -534,6 +534,12 @@
     object-position: 68% center;
     opacity: 0.78;
   }
+  .sol-hero-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(5, 5, 11, 0.42);
+  }
   .sol-hero h1 {
     font-size: clamp(32px, 9vw, 42px);
   }
