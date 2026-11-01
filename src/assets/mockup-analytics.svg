@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 352" width="480" height="352" role="img" aria-label="Analytics panel with growth chart">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10101e"/><stop offset="1" stop-color="#0a0a13"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc"/><stop offset=".55" stop-color="#a78bfa"/><stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#6d28d9" stop-opacity=".55"/><stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <clipPath id="shell"><rect width="480" height="352" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#shell)">
+    <rect width="480" height="352" fill="url(#panel)"/>
+
+    <text x="22" y="30" font-family="Inter, Segoe UI, sans-serif" font-size="11.5" font-weight="600" fill="#e6e4f7">Performance</text>
+    <text x="22" y="46" font-family="Inter, Segoe UI, sans-serif" font-size="8" fill="#6f6f8a">Last 30 days</text>
+
+    <rect x="392" y="18" width="66" height="22" rx="11" fill="#34d399" opacity=".12"/>
+    <rect x="392.5" y="18.5" width="65" height="21" rx="10.5" fill="none" stroke="#34d399" stroke-opacity=".35"/>
+    <path d="M403 32l4-4 3 3 4-5" fill="none" stroke="#34d399" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="419" y="33" font-family="Inter, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#34d399">+24%</text>
+
+    <g stroke="#232338" stroke-width="1" stroke-dasharray="3 5">
+      <line x1="22" y1="96" x2="458" y2="96"/>
+      <line x1="22" y1="146" x2="458" y2="146"/>
+      <line x1="22" y1="196" x2="458" y2="196"/>
+    </g>
+
+    <path d="M22 214 C52 204 62 198 84 203 C110 209 118 231 140 224 C166 215 174 170 196 173 C220 177 230 191 250 184 C274 175 284 136 306 138 C330 140 338 154 360 149 C384 143 392 110 414 104 C430 99 442 95 458 92 L458 238 L22 238 Z" fill="url(#area)"/>
+    <path d="M22 214 C52 204 62 198 84 203 C110 209 118 231 140 224 C166 215 174 170 196 173 C220 177 230 191 250 184 C274 175 284 136 306 138 C330 140 338 154 360 149 C384 143 392 110 414 104 C430 99 442 95 458 92" fill="none" stroke="url(#line)" stroke-width="2" stroke-linecap="round"/>
+
+    <circle cx="414" cy="104" r="9" fill="#a78bfa" opacity=".14"/>
+    <circle cx="414" cy="104" r="4" fill="#10101e" stroke="#c4b5fd" stroke-width="2"/>
+
+    <g font-family="Inter, Segoe UI, sans-serif" font-size="7" fill="#5f5f78">
+      <text x="22" y="252">Mon</text><text x="90" y="252">Tue</text><text x="158" y="252">Wed</text>
+      <text x="226" y="252">Thu</text><text x="294" y="252">Fri</text><text x="362" y="252">Sat</text>
+      <text x="430" y="252">Sun</text>
+    </g>
+
+    <g fill="url(#bar)" opacity=".85">
+      <rect x="22" y="308" width="10" height="16" rx="3"/>
+      <rect x="46" y="300" width="10" height="24" rx="3"/>
+      <rect x="70" y="292" width="10" height="32" rx="3"/>
+      <rect x="94" y="298" width="10" height="26" rx="3"/>
+      <rect x="118" y="284" width="10" height="40" rx="3"/>
+      <rect x="142" y="290" width="10" height="34" rx="3"/>
+      <rect x="166" y="276" width="10" height="48" rx="3"/>
+      <rect x="190" y="270" width="10" height="54" rx="3"/>
+      <rect x="214" y="278" width="10" height="46" rx="3"/>
+      <rect x="238" y="262" width="10" height="62" rx="3"/>
+      <rect x="262" y="268" width="10" height="56" rx="3"/>
+      <rect x="286" y="252" width="10" height="72" rx="3"/>
+      <rect x="310" y="258" width="10" height="66" rx="3"/>
+      <rect x="334" y="242" width="10" height="82" rx="3"/>
+      <rect x="358" y="248" width="10" height="76" rx="3"/>
+      <rect x="382" y="232" width="10" height="92" rx="3"/>
+      <rect x="406" y="222" width="10" height="102" rx="3" stop-opacity="1"/>
+      <rect x="430" y="214" width="10" height="110" rx="3"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="479" height="351" rx="14" fill="none" stroke="#2b2b48"/>
+</svg>
