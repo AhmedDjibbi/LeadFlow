@@ -146,8 +146,10 @@ p { margin: 0; }
 
 /* ---------- header ---------- */
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  right: 0;
+  left: 0;
   z-index: 60;
   background: transparent;
   backdrop-filter: none;
@@ -157,9 +159,9 @@ p { margin: 0; }
 }
 .site-header.is-scrolled {
   border-bottom-color: rgba(255, 255, 255, 0.06);
-  background: rgba(5, 5, 11, 0.82);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: rgba(5, 5, 11, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .header-inner {
@@ -229,10 +231,8 @@ p { margin: 0; }
 .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
 /* ---------- hero ---------- */
-/* Pull the hero under the sticky header so the transparent navbar sits over it */
 .hero {
   position: relative;
-  margin-top: -76px;
   padding: 92px 0 24px;
   isolation: isolate;
   overflow: hidden;
@@ -1257,7 +1257,7 @@ p { margin: 0; }
   }
   .nav-toggle span { background: #b94dff; }
 
-  .hero { margin-top: -58px; padding-top: 68px; }
+  .hero { padding-top: 68px; }
   .hero-grid { position: relative; padding-top: 8px; }
   .hero-copy { position: relative; z-index: 2; }
   .mobile-break { display: block; }
@@ -1416,7 +1416,6 @@ p { margin: 0; }
 /* ---------- hero ---------- */
 .about-hero {
   position: relative;
-  margin-top: -76px;
   padding: 0;
   isolation: isolate;
   display: flex;

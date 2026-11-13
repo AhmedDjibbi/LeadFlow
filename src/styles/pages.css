@@ -8,7 +8,6 @@
 
 .inner-hero {
   position: relative;
-  margin-top: -76px;
   padding: 152px 0 64px;
   overflow: hidden;
   isolation: isolate;
@@ -94,7 +93,6 @@
 /* ---------- solutions ---------- */
 .sol-hero {
   position: relative;
-  margin-top: -76px;
   padding: 176px 0 58px;
   overflow: hidden;
   isolation: isolate;
@@ -669,7 +667,6 @@
 /* ---------- contact hero ---------- */
 .contact-hero {
   position: relative;
-  margin-top: -76px;
   padding: 150px 0 60px;
   overflow: hidden;
   isolation: isolate;
